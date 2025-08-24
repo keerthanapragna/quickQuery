@@ -1,3 +1,4 @@
+/* General Reset */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -9,7 +10,7 @@ body {
   height: 100vh;
 }
 
-
+/* Left Side */
 .homepage {
   flex: 1;
   background-color: rgb(248, 249, 250);
@@ -35,7 +36,7 @@ body {
   color: rgb(85, 85, 85);
 }
 
-/* Right side */
+/* Right Side */
 .desc {
   flex: 1;
   background-color: rgb(255, 255, 255);
@@ -44,6 +45,54 @@ body {
   align-items: center;
 }
 
+.desc ul {
+  list-style: none;
+  padding: 0;
+}
+
+.desc li {
+  margin: 15px 0;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: background 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: #007bff;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #0056b3;
+}
+
+.btn-success {
+  background: #28a745;
+  color: white;
+}
+
+.btn-success:hover {
+  background: #1e7e34;
+}
+
+.btn-warning {
+  background: #ffc107;
+  color: black;
+}
+
+.btn-warning:hover {
+  background: #e0a800;
+}
+
+/* Form (for login/signup pages) */
 .form {
   width: 350px;
   padding: 30px;
